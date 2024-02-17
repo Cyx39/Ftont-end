@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+
+body {
+  background-color: #000002;
+}
+
+#backgame {
+  color: #001692bd;
+  font-size: 3em;
+  position: relative;
+  left: 5px;
+}
+#backgame:hover {
+  color: #0026ff;
+  filter: drop-shadow(0 0 20px #001692bd) drop-shadow(0 0 30px #001692bd)
+    drop-shadow(0 0 35px #001692bd);
+}
+
+.games {
+  position: relative;
+  text-align: center;
+  top: 30px;
+}
+.mario {
+  border: 2px solid red;
+  margin: 10px;
+  border-radius: 5px;
+}
+#mario {
+  margin: 25px;
+  background-image: linear-gradient(to right, #f00, #00f);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: azure;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.pacman {
+  border: 2px solid yellow;
+  margin: 10px;
+  border-radius: 5px;
+}
+#pacman {
+  margin: 25px;
+  background-image: linear-gradient(
+    to right,
+    rgb(238, 255, 0),
+    rgb(0, 26, 255)
+  );
+  background-position: left-bottom;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: azure;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.corrida {
+  border: 2px solid rgb(60, 255, 0);
+  margin: 10px;
+  border-radius: 5px;
+}
+#corrida {
+  margin: 25px;
+  background-image: linear-gradient(to right, rgb(0, 255, 0), rgb(17, 17, 17));
+  background-position: right-bottom;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: azure;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.copy {
+  position: relative;
+  top: 50px;
+  text-align: center;
+}

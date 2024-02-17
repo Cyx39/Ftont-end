@@ -1,0 +1,91 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #151515;
+    /* Define a imagem de fundo */
+    background-image: url('./imgs/Espada_Loading.png');
+    /* Define como a imagem será exibida (cobrindo toda a área) */
+    background-size: cover;
+    /* Define a posição da imagem no fundo */
+    background-position: center;
+    /* Evita que a imagem de fundo seja repetida */
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.bolinha-carregamento{
+ position: relative;
+ left: 170px;
+ top: 525px;
+}
+
+
+
+.loading{
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  top: -150px;
+  right: 150px;
+}
+.loading .line-box{
+  height: 20px;
+  width: 50%;
+  border: 2px solid gold;
+  display: flex;
+  border-radius: 20px;
+  
+}
+.loading .line-box .line{
+  height: 20px;
+  border-radius: 20px;
+  background-color: gold;
+  animation: loading 5s forwards cubic-bezier(0, 0, 0, 0);
+  box-shadow: 0px 0px 10px 10px rgba(226, 217, 43, 0.37);
+  
+
+}
+@keyframes loading {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 100%;
+  }
+}
+.geral{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  position:relative;
+  top: -88px;
+}
+
+.text-carregamento{
+  color: gold;
+  position: relative;
+  top: 259px;
+  left: 130px;
+}
+@media screen and (max-width:768px) {
+  .geral{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+}
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap"
+    rel="stylesheet"
+  />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Menu.css" />
+    <title>Menu | CN-Esports</title>
+    <link rel="website icons" type="png" href="..TelaFinal/imgs2/LOGO_2.png" />
+  </head>
+  <body>
+    <div id="tab">
+      <input type="radio" />
+      <div id="buttons">
+        <label for="link" id="backlink"
+          ><i class="fa-solid fa-right-to-bracket fa-rotate-180"></i
+        ></label>
+      </div>
+    </div>
+    <h2>Menu</h2>
+    <div class="games">
+      <div class="parte-one">
+        <button id="Games-text" onclick="games()">Games</button>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="nav-icons">
+      <div class="icons">
+        <nav class="discord">
+          <img src="./imgs/icon-dicorde.jpg" class="imgdc" id="discord" />
+        </nav>
+        <nav class="yt">
+          <img src="./imgs/youtube.jpg" class="imgyt" id="youtube" />
+          <!--criar uma area somente do youtube-->
+        </nav>
+        <nav class="tk">
+          <img src="./imgs/TKTK.png" class="imgtk" id="tktk" />
+        </nav>
+      </div>
+    </div>
+    <div id="division"></div>
+    <div class="componentes">
+      <div class="ADMs">
+        <h3 class="letras-adm" onclick="sporadms()">Adms/Lideres</h3>
+        <!--Auterar a font etentar deixar mais style e bonito-->
+        <div id="conteudo-adm" style="display: none">
+          <ul style="color: yellow">
+            <li>CN Jetty</li>
+            <li>CN Jhon</li>
+            <li>CN Patrão</li>
+            <li>CN Two9</li>
+          </ul>
+        </div>
+      </div>
+      <div class="Programador">
+        <h4 class="interfacenamedev" onclick="dev()">Desenvolvedor</h4>
+        <div id="dev" style="display: none">
+          <h5 class="namedev">CN JHON</h5>
+        </div>
+      </div>
+    </div>
+    <div class="copy">&copy; 2024 CN-Esport OFICIAL</div>
+    <script src="./Menu.js"></script>
+  </body>
+</html>

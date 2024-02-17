@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+
+body {
+  background-color: #000002;
+  font-family: "Libre Baskerville", serif;
+  overflow-x: hidden;
+}
+
+#tab input {
+  visibility: hidden;
+  display: none;
+}
+#buttons {
+  position: relative;
+  display: flex;
+  font-size: 1.55em;
+  left: 10px;
+}
+#buttons label {
+  width: 20%;
+  font-size: 1.5em;
+  -webkit-text-stroke: 1px #001aff;
+  color: rgb(0, 60, 255);
+  opacity: 0.7;
+  transition: 0.1ms;
+}
+#buttons label:hover {
+  filter: drop-shadow(0 0 18px #0b2dc3);
+  opacity: 1;
+}
+
+#backlink {
+  position: relative;
+  top: 20px;
+}
+
+.copy {
+  color: rgb(137, 148, 226);
+  position: relative;
+  text-align: center;
+  top: 50px;
+}
+h2 {
+  color: rgb(2, 52, 214);
+  position: relative;
+  text-align: center;
+  top: -50px;
+  font-size: 3.99em;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.games {
+  position: relative;
+  text-align: center;
+}
+#Games-text {
+  color: rgb(22, 44, 245);
+  width: 50%;
+  position: relative;
+  background-color: transparent;
+  padding: 15px;
+  border: 2px solid blue;
+  border-radius: 20px;
+  border-bottom: #001aff;
+  top: -50px;
+  background: transparent;
+  border-bottom: 2px solid #001aff;
+  transition: 0.6s;
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#Games-text:hover {
+  background-color: #001aff;
+  color: white;
+  border: 2px solid rgb(0, 38, 255);
+  filter: drop-shadow(0 0 10px #001aff) drop-shadow(0 0 20px #001aff);
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.discord {
+  position: relative;
+  text-align: center;
+  right: 50px;
+  top: -50px;
+  gap: 10px;
+}
+.imgdc {
+  width: 50px;
+  height: 50px;
+  font-size: 0.5em;
+  border-radius: 50px;
+  padding: 18px;
+  border: 1.5px solid blue;
+}
+
+.yt {
+  position: relative;
+  text-align: center;
+  left: 60px;
+  top: -145px;
+  gap: 10px;
+}
+.imgyt {
+  width: 60px;
+  height: 50px;
+  font-size: 0.5em;
+  border-radius: 50px;
+  padding: 18px;
+  border: 1.5px solid blue;
+  border-radius: 50px;
+}
+
+.tk {
+  position: relative;
+  text-align: center;
+  left: 10px;
+  top: -140px;
+  gap: 5px;
+}
+.imgtk {
+  width: 60px;
+  height: 50px;
+  font-size: 0.2em;
+  border-radius: 50px;
+  padding: 18px;
+  border-radius: 50px;
+  border: 1.5px solid blue;
+}
+
+.nav-icons {
+  position: relative;
+  animation: flutuar 3.5s infinite ease-in-out;
+}
+@keyframes flutuar {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#division {
+  border-bottom: 1px solid #001aff;
+  border-radius: 2px;
+}
+
+.ADMs {
+  color: #0026ff;
+}
+
+.letras-adm {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2em;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+#conteudo-adm {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid rgba(1, 20, 199, 0.671);
+  border-radius: 10px;
+}
+
+.interfacenamedev {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.9em;
+  text-align: center;
+  color: #001aff;
+}
+
+@keyframes rgb-name {
+  0% {
+    color: rgb(0, 255, 42);
+  }
+  50% {
+    color: rgb(25, 0, 255);
+  }
+  100% {
+    color: rgb(0, 255, 234);
+  }
+}
+.namedev {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.69em;
+  animation: rgb-name 7s infinite;
+}

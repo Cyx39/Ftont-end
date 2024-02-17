@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="acont.css" />
+  </head>
+  <body onload="openPopup()">
+    <div id="popup" class="popup">
+      <img
+        id="ImagemUser"
+        src="placeholder.jpg"
+        alt="Imagem do Usuário"
+        style="
+          width: 90px;
+          height: 90px;
+          cursor: pointer;
+          position: relative;
+          top: 50px;
+          left: 120px;
+          border-radius: 100px;
+        "
+      />
+      <input type="file" id="SelecionarImagem" style="display: none" />
+      <br />
+      <span onclick="nome()" id="user">Seu nome </span>
+      <br />
+      <div class="comunicado">
+        <p>
+          Aqui na proxima atualização, no caso a 1.1.2 a vera uma area de
+          guildas e a nossa estara nela!!
+        </p>
+      </div>
+      <br />
+      <br />
+      <button id="Fechar">Fechar</button>
+    </div>
+
+    <img src="../TelaFinal/imgs2/LOGO_2.png" alt="" class="Logo-Acont" />
+    <script src="acont.js"></script>
+    <script src="../Acont/conf/Veri.js"></script>
+  </body>
+</html>

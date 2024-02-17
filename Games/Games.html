@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="website icons" type="png" href="..TelaFinal/imgs2/LOGO_2.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="backgames">
+      <div class="back">
+        <label for="link" id="backgame"
+          ><i class="fa-solid fa-right-to-bracket fa-rotate-180"></i
+        ></label>
+      </div>
+    </div>
+    <div class="games">
+      <div class="mario">
+        <button id="mario" onclick="mario()">Play Mario</button>
+      </div>
+      <div class="pacman">
+        <button id="pacman">Play Pacman</button>
+      </div>
+      <div class="corrida"><button id="corrida">Play Corrida</button></div>
+    </div>
+    <script>
+      document
+        .getElementById("backgame")
+        .addEventListener("click", function () {
+          var timeback = function () {
+            window.history.back();
+          };
+          setTimeout(timeback, 990);
+        });
+      document.getElementById("mario").addEventListener("click", function () {
+        var timeredirection = function () {
+          alert("Esta em desenvolvimento!!");
+          //window.location.href = "./Games-front/games1/mario.html";
+        };
+        setTimeout(timeredirection, 998);
+      });
+      document.getElementById("pacman").addEventListener("click", function () {
+        var timeredirection = function () {
+          alert("Esta em desenvolvimento!!");
+          //window.location.href = "./Games-front/games2/pacman.html";
+        };
+        setTimeout(timeredirection, 998);
+      });
+      document.getElementById("corrida").addEventListener("click", function () {
+        var timeredirection = function () {
+          alert("Esta em desenvolvimento!!");
+          //window.location.href = "./Games-front/games3/corrida.html";
+        };
+        setTimeout(timeredirection, 998);
+      });
+    </script>
+    <div class="copy" style="color: white">&copy; CN-Esports Oficial 2024</div>
+  </body>
+</html>
